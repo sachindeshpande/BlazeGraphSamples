@@ -1,0 +1,938 @@
+@prefix ns0: <http://biomodels.net/biology-qualifiers#> .
+@prefix ns1: <http://identifiers.org/biomodels.vocabulary#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ns2: <http://biomodels.net/model-qualifiers#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://www.w3.org/2001/vcard-rdf/3.0#> .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000013>
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0005892>, <http://identifiers.org/interpro/IPR002394> ;
+  a <http://identifiers.org/biomodels.vocabulary#Species> ;
+  ns1:constant false ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns1:name "Intermediate" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000420> ;
+  ns1:initialAmount 0.000000e+0 ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns1:boundaryCondition false ;
+  ns1:notes "unliganted intermediate" .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000046>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 1.728000e+1 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_324028>
+  ns1:variable <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000045> ;
+  a ns1:EventAssignment .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323906>
+  ns1:notes "kf_15 * IL - kr_15 * DL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323637>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000011> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323546>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000007> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000023>
+  ns1:fast false ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000177>, <http://purl.obolibrary.org/obo/GO:0042166> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323585> ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323598> ;
+  ns1:reversible true ;
+  a ns1:Reaction ;
+  ns1:name "React7" ;
+  ns1:notes "first ligand on intermediate" ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323611> .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323334>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000007> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000056>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 3.740000e+0 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000066>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 1.200000e-3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323761>
+  ns1:notes "kf_11 * ALL - kr_11 * ILL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323798>
+  ns1:notes "kf_12 * D - kr_12 * DL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323585>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000013> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323749>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000011> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000003>
+  ns0:isVersionOf <http://identifiers.org/interpro/IPR002394>, <http://purl.obolibrary.org/obo/GO:0005892> ;
+  ns1:initialAmount 0.000000e+0 ;
+  ns1:notes "biliganded basal state" ;
+  ns1:constant false ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns1:boundaryCondition false ;
+  ns1:name "BasalACh2" ;
+  a ns1:Species ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000297> .
+
+<http://purl.obolibrary.org/obo/GO:0004889> owl:sameAs <http://identifiers.org/obo.go/GO:0004889> .
+<http://purl.obolibrary.org/obo/GO:0005892> owl:sameAs <http://identifiers.org/obo.go/GO:0005892> .
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323406>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000014> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323932>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000009> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000022>
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323572> ;
+  ns1:notes "opening of monoliganded" ;
+  a ns1:Reaction ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000181>, <http://purl.obolibrary.org/obo/GO:0004889> ;
+  ns1:reversible true ;
+  ns1:fast false ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323559> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323546> ;
+  ns1:name "React6" .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000012>
+  ns1:notes "monoliganded desensitised state" ;
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0005892>, <http://identifiers.org/interpro/IPR002394> ;
+  a ns1:Species ;
+  ns1:name "DesensitisedACh" ;
+  ns1:constant false ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns1:initialAmount 0.000000e+0 ;
+  ns1:boundaryCondition false ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000297> .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000032>
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323944> ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323932> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323921> ;
+  ns1:notes "biliganded intermediate <=> biliganded desensitised" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000181> ;
+  ns1:fast false ;
+  ns1:reversible true ;
+  ns1:name "React16" ;
+  a ns1:Reaction .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000047>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant true ;
+  ns1:value 5.400000e-1 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000037>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant false ;
+  ns1:value 3.000000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000057>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant true ;
+  ns1:value 1.985000e+1 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000002>
+  ns0:is <http://purl.obolibrary.org/obo/GO:0031594>, <http://identifiers.org/biomodels.sbo/SBO:0000290> ;
+  ns1:constant true ;
+  ns1:size 1.000000e-16 ;
+  ns1:spatialDimensions 3.000000e+0 ;
+  ns1:name "compartment1" ;
+  a ns1:Compartment .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323894>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000012> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323559>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000005> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323394>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000003> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323572>
+  ns1:notes "kf_6 * BL - kr_6 * AL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000067>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant true ;
+  ns1:value 5.000000e-2 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323980>
+  ns1:variable <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000043> ;
+  a ns1:EventAssignment .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323431>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000006> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000060>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 8.100000e-1 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_324016>
+  ns1:variable <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000039> ;
+  a ns1:EventAssignment .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323468>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000005> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001>
+  ns1:parameter <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000043>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000042>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000037>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000056>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000066>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000047>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000041>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000046>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000038>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000040>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000070>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000065>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000064>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000050>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000045>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000055>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000069>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000068>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000059>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000053>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000044>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000063>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000062>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000054>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000057>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000049>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000048>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000067>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000039>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000072>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000061>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000058>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000060>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000052>, <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000051> ;
+  ns1:reaction <http://identifiers.org/biomodels.db/BIOMD0000000001#_000023>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000029>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000021>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000028>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000018>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000020>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000030>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000022>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000017>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000027>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000026>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000025>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000024>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000016>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000019>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000032>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000031> ;
+  ns2:isDescribedBy <http://identifiers.org/pubmed/8983160> ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000010>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000003>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000014>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000007>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000011>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000004>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000008>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000012>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000005>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000009>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000013>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_000006> ;
+  ns2:curated true ;
+  ns1:notes "Edelstein1996 - EPSP ACh event Model of a nicotinic Excitatory Post-Synaptic Potential in a Torpedo electric organ. Acetylcholine is not represented explicitely, but by an event that changes the constants of transition from unliganded to liganded. This model has initially been encoded using StochSim. This model is described in the article: A kinetic mechanism for nicotinic acetylcholine receptors based on multiple allosteric transitions. Edelstein SJ, Schaad O, Henry E, Bertrand D, Changeux JP. Biol. Cybern. 1996 Nov; 75(5):361-79 Abstract: Nicotinic acetylcholine receptors are transmembrane oligomeric proteins that mediate interconversions between open and closed channel states under the control of neurotransmitters. Fast in vitro chemical kinetics and in vivo electrophysiological recordings are consistent with the following multi-step scheme. Upon binding of agonists, receptor molecules in the closed but activatable resting state (the Basal state, B) undergo rapid transitions to states of higher affinities with either open channels (the Active state, A) or closed channels (the initial Inactivatable and fully Desensitized states, I and D). In order to represent the functional properties of such receptors, we have developed a kinetic model that links conformational interconversion rates to agonist binding and extends the general principles of the Monod-Wyman-Changeux model of allosteric transitions. The crucial assumption is that the linkage is controlled by the position of the interconversion transition states on a hypothetical linear reaction coordinate. Application of the model to the peripheral nicotine acetylcholine receptor (nAChR) accounts for the main properties of ligand-gating, including single-channel events, and several new relationships are predicted. Kinetic simulations reveal errors inherent in using the dose-response analysis, but justify its application under defined conditions. The model predicts that (in order to overcome the intrinsic stability of the B state and to produce the appropriate cooperativity) channel activation is driven by an A state with a Kd in the 50 nM range, hence some 140-fold stronger than the apparent affinity of the open state deduced previously. According to the model, recovery from the desensitized states may occur via rapid transit through the A state with minimal channel opening, thus without necessarily undergoing a distinct recovery pathway, as assumed in the standard 'cycle' model. Transitions to the desensitized states by low concentration 'pre-pulses' are predicted to occur without significant channel opening, but equilibrium values of IC50 can be obtained only with long pre-pulse times. Predictions are also made concerning allosteric effectors and their possible role in coincidence detection. In terms of future developments, the analysis presented here provides a physical basis for constructing more biologically realistic models of synaptic modulation that may be applied to artificial neural networks. This model is hosted on BioModels Database and identified by: BIOMD0000000001 . To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information." ;
+  ns1:compartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns2:is <http://identifiers.org/biomodels.db/MODEL6613849442>, <http://identifiers.org/biomodels.db/BIOMD0000000001> ;
+  ns1:event <http://identifiers.org/biomodels.db/BIOMD0000000001#_180306> ;
+  ns1:areaUnits "area"^^xsd:string ;
+  ns1:substanceUnits "substance"^^xsd:string ;
+  ns1:lengthUnit "length"^^xsd:string ;
+  ns1:name "Edelstein1996 - EPSP ACh event" ;
+  dc:created [ dc:W3CDTF "Wed Feb 02 14:56:11 GMT 2005" ] ;
+  ns1:timeUnits "time"^^xsd:string ;
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0007274>, <http://purl.obolibrary.org/obo/GO:0007166> ;
+  ns1:volumeUnits "volume"^^xsd:string ;
+  ns0:occursIn <http://identifiers.org/taxonomy/7787> ;
+  dc:creator [
+    ns3:ORG [ ns3:Orgname "EMBL-EBI" ] ;
+    ns3:EMAIL "lenov@ebi.ac.uk" ;
+    ns3:N [
+      ns3:Given "Nicolas" ;
+      ns3:Family "Le Novère"
+    ]
+  ] ;
+  dc:modified [ dc:W3CDTF "Mon Jun 03 14:34:46 BST 2013" ] ;
+  a ns1:SBMLModel .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323810>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000012> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000048>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 1.080000e+4 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323494>
+  ns1:notes "kf_4 * AL - kr_4 * ALL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000031>
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323906> ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323894> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323882> ;
+  ns1:notes "monoliganded intermediate <=> monoliganded desensitised" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000181> ;
+  ns1:fast false ;
+  ns1:reversible true ;
+  ns1:name "React15" ;
+  a ns1:Reaction .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323611>
+  ns1:notes "kf_7 * I - kr_7 * IL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000025>
+  ns1:fast false ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323689> ;
+  a ns1:Reaction ;
+  ns1:name "React9" ;
+  ns1:reversible true ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323663> ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323676> ;
+  ns1:notes "unliganded active <=> unliganded intermediate" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000181>, <http://purl.obolibrary.org/obo/GO:0004889> .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000011>
+  ns1:notes "biliganded intermediate" ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0005892>, <http://identifiers.org/interpro/IPR002394> ;
+  ns1:boundaryCondition false ;
+  ns1:initialAmount 0.000000e+0 ;
+  a ns1:Species ;
+  ns1:constant false ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000297> ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:name "IntermediateACh2" .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000019>
+  ns0:is <http://purl.obolibrary.org/obo/GO:0042166>, <http://identifiers.org/biomodels.sbo/SBO:0000177> ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323455> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323431> ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323443> ;
+  ns1:reversible true ;
+  ns1:name "React3" ;
+  a ns1:Reaction ;
+  ns1:notes "first ligand on active" ;
+  ns1:fast false .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323358>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000007> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323418>
+  ns1:notes "kf_2 * BLL - kr_2 * ALL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000005>
+  ns1:boundaryCondition false ;
+  ns1:notes "monoliganded active state" ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns1:constant false ;
+  ns1:name "ActiveACh" ;
+  ns0:isVersionOf <http://identifiers.org/interpro/IPR002394>, <http://purl.obolibrary.org/obo/GO:0005892> ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000297> ;
+  a ns1:Species ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns1:initialAmount 0.000000e+0 .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323650>
+  ns1:notes "kf_8 * IL - kr_8 * ILL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323346>
+  ns1:notes "kf_0 * B - kr_0 * BL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000068>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 1.200000e-3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000040>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 1.600000e+4 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000054>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 8.000000e+0 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323737>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000014> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323533>
+  ns1:notes "kf_5 * B - kr_5 * A" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000061>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant false ;
+  ns1:value 3.000000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000030>
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323870> ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323858> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323846> ;
+  ns1:notes "unliganded intermediate <=> unliganded desensitised" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000181> ;
+  ns1:fast false ;
+  ns1:reversible true ;
+  ns1:name "React14" ;
+  a ns1:Reaction .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000049>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant true ;
+  ns1:value 1.300000e+2 ;
+  a ns1:Parameter .
+
+<http://purl.obolibrary.org/obo/GO:0031594> owl:sameAs <http://identifiers.org/obo.go/GO:0031594> .
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000010>
+  ns1:constant false ;
+  ns1:boundaryCondition false ;
+  ns1:name "Desensitised" ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:notes "fully desensitised state" ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0005892>, <http://identifiers.org/interpro/IPR002394> ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000420> ;
+  ns1:initialAmount 0.000000e+0 ;
+  a ns1:Species .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323624>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000004> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000024>
+  ns1:notes "second ligand on intermediate" ;
+  a ns1:Reaction ;
+  ns1:name "React8" ;
+  ns1:fast false ;
+  ns0:is <http://purl.obolibrary.org/obo/GO:0042166>, <http://identifiers.org/biomodels.sbo/SBO:0000177> ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323637> ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323650> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323624> ;
+  ns1:reversible true .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323944>
+  ns1:notes "kf_16 * ILL - kr_16 * DLL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000004>
+  ns1:initialConcentration 0.000000e+0 ;
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0005892>, <http://identifiers.org/interpro/IPR002394> ;
+  ns1:name "IntermediateACh" ;
+  a ns1:Species ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns1:boundaryCondition false ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000297> ;
+  ns1:initialAmount 0.000000e+0 ;
+  ns1:notes "monoliganded intermediate" ;
+  ns1:constant false .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000018>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000181>, <http://purl.obolibrary.org/obo/GO:0004889> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323394> ;
+  ns1:notes "opening of biliganded" ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323406> ;
+  ns1:fast false ;
+  ns1:name "React2" ;
+  ns1:reversible true ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323418> ;
+  a ns1:Reaction .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323382>
+  ns1:notes "kf_1 * BL - kr_1 * BLL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323676>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000013> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000055>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant true ;
+  ns1:value 1.970000e+1 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000069>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant true ;
+  ns1:value 5.000000e-2 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000041>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant true ;
+  ns1:value 3.000000e+4 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323882>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000004> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000042>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 7.000000e+2 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000027>
+  a ns1:Reaction ;
+  ns0:is <http://purl.obolibrary.org/obo/GO:0004889>, <http://identifiers.org/biomodels.sbo/SBO:0000181> ;
+  ns1:fast false ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323737> ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323749> ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323761> ;
+  ns1:reversible true ;
+  ns1:notes "biliganded active <=> biliganded intermediate" ;
+  ns1:name "React11" .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323785>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000012> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323725>
+  ns1:notes "kf_10 * AL - kr_10 * IL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323870>
+  ns1:notes "kf_14 * I - kr_14 * D" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000052>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 4.000000e+0 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_180306>
+  ns1:eventAssignment <http://identifiers.org/biomodels.db/BIOMD0000000001#_324053>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_323992>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_324041>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_323968>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_324004>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_323980>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_324028>, <http://identifiers.org/biomodels.db/BIOMD0000000001#_324016> ;
+  ns0:is <http://purl.obolibrary.org/obo/GO:0001507> ;
+  ns1:trigger <http://identifiers.org/biomodels.db/BIOMD0000000001#_323956> ;
+  ns1:useValuesFromTriggerTime true ;
+  a ns1:Event ;
+  ns1:name "removal of ACh" .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000007>
+  a ns1:Species ;
+  ns0:isVersionOf <http://identifiers.org/interpro/IPR002394>, <http://purl.obolibrary.org/obo/GO:0005892> ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns1:initialAmount 0.000000e+0 ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns1:name "BasalACh" ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:constant false ;
+  ns1:notes "monoliganded basal state" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000297> ;
+  ns1:boundaryCondition false .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000017>
+  ns1:fast false ;
+  ns0:is <http://purl.obolibrary.org/obo/GO:0042166>, <http://identifiers.org/biomodels.sbo/SBO:0000177> ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323382> ;
+  ns1:reversible true ;
+  ns1:notes "second ligand on basal" ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323370> ;
+  a ns1:Reaction ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323358> ;
+  ns1:name "React1" .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000062>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 4.000000e+0 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323689>
+  ns1:notes "kf_9 * A - kr_9 * I" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323822>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000009> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_324004>
+  ns1:variable <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000061> ;
+  a ns1:EventAssignment .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323481>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000014> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323858>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000010> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000043>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant false ;
+  ns1:value 3.000000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000026>
+  ns1:reversible true ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323701> ;
+  a ns1:Reaction ;
+  ns0:is <http://purl.obolibrary.org/obo/GO:0004889>, <http://identifiers.org/biomodels.sbo/SBO:0000181> ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323725> ;
+  ns1:fast false ;
+  ns1:notes "monoliganded active <=> monoliganded intermediate" ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323713> ;
+  ns1:name "React10" .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000053>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant false ;
+  ns1:value 1.500000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000063>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant false ;
+  ns1:value 1.500000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000006>
+  ns1:boundaryCondition false ;
+  ns1:initialAmount 0.000000e+0 ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:notes "unkiganded active state" ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0005892>, <http://identifiers.org/interpro/IPR002394> ;
+  ns1:name "Active" ;
+  ns1:constant false ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000420> ;
+  a ns1:Species .
+
+<http://purl.obolibrary.org/obo/GO:0007274> owl:sameAs <http://identifiers.org/obo.go/GO:0007274> .
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000016>
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323334> ;
+  ns1:notes "first ligand on basal" ;
+  ns1:name "React0" ;
+  ns1:reversible true ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323321> ;
+  ns1:fast false ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323346> ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000177>, <http://purl.obolibrary.org/obo/GO:0042166> ;
+  a ns1:Reaction .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323520>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000006> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323956>
+  ns1:persistant true ;
+  ns1:initialValue true ;
+  a ns1:Trigger .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323507>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000008> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000072>
+  ns1:constant true ;
+  ns1:value 2.000000e+1 ;
+  a ns1:Parameter .
+
+<http://purl.obolibrary.org/obo/GO:0007166> owl:sameAs <http://identifiers.org/obo.go/GO:0007166> .
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323443>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000005> ;
+  a ns1:SpeciesReference .
+
+<http://purl.obolibrary.org/obo/GO:0042166> owl:sameAs <http://identifiers.org/obo.go/GO:0042166> .
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323921>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000011> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000050>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 2.740000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000044>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 8.640000e+0 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000029>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000177>, <http://purl.obolibrary.org/obo/GO:0042166> ;
+  a ns1:Reaction ;
+  ns1:fast false ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323822> ;
+  ns1:name "React13" ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323834> ;
+  ns1:notes "second ligand on desensitised" ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323810> ;
+  ns1:reversible true .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323773>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000010> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323713>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000004> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323663>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000006> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000064>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 8.000000e+0 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000009>
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:initialAmount 0.000000e+0 ;
+  ns1:boundaryCondition false ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0005892>, <http://identifiers.org/interpro/IPR002394> ;
+  a ns1:Species ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000297> ;
+  ns1:notes "biliganded desensitised state" ;
+  ns1:name "DesensitisedACh2" ;
+  ns1:constant false .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323370>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000003> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000039>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant false ;
+  ns1:value 1.500000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323834>
+  ns1:notes "kf_13 * DL - kr_13 * DLL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000020>
+  a ns1:Reaction ;
+  ns1:name "React4" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000177>, <http://purl.obolibrary.org/obo/GO:0042166> ;
+  ns1:reversible true ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323481> ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323494> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323468> ;
+  ns1:notes "second ligand on active" ;
+  ns1:fast false .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_324053>
+  ns1:variable <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000063> ;
+  a ns1:EventAssignment .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000058>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 1.740000e+0 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000028>
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323773> ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323785> ;
+  ns1:name "React12" ;
+  ns1:notes "first ligand on desensitised" ;
+  ns1:reversible true ;
+  ns1:fast false ;
+  ns0:is <http://purl.obolibrary.org/obo/GO:0042166>, <http://identifiers.org/biomodels.sbo/SBO:0000177> ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323798> ;
+  a ns1:Reaction .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323992>
+  ns1:variable <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000051> ;
+  a ns1:EventAssignment .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000051>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant false ;
+  ns1:value 3.000000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323321>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000008> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323846>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000013> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000045>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant false ;
+  ns1:value 1.500000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000014>
+  a ns1:Species ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns1:name "ActiveACh2" ;
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0005892>, <http://identifiers.org/interpro/IPR002394> ;
+  ns1:constant false ;
+  ns1:initialAmount 0.000000e+0 ;
+  ns1:notes "biliganted active state" ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns1:boundaryCondition false ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000297> .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000065>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant true ;
+  ns1:value 5.000000e-2 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323598>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000011> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000004> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000008>
+  ns1:boundaryCondition false ;
+  ns1:initialConcentration 0.000000e+0 ;
+  ns1:hasOnlySubstanceUnits false ;
+  ns1:inCompartment <http://identifiers.org/biomodels.db/BIOMD0000000001#_000002> ;
+  ns1:constant false ;
+  ns1:notes "unliganded basal state" ;
+  ns0:isVersionOf <http://purl.obolibrary.org/obo/GO:0005892>, <http://identifiers.org/interpro/IPR002394> ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000420> ;
+  ns1:name "Basal" ;
+  a ns1:Species ;
+  ns1:initialAmount 1.660578e-21 .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323455>
+  ns1:notes "kf_3 * A - kr_3 * AL" ;
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000080> ;
+  a ns1:KineticLaw .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_324041>
+  ns1:variable <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000053> ;
+  a ns1:EventAssignment .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323701>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000010> ;
+  ns1:stoichiometry 1.000000e+0 ;
+  ns1:species <http://identifiers.org/biomodels.db/BIOMD0000000001#_000005> ;
+  a ns1:SpeciesReference .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000038>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 8.000000e+3 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_000021>
+  a ns1:Reaction ;
+  ns1:fast false ;
+  ns1:notes "opening of unliganded" ;
+  ns0:is <http://purl.obolibrary.org/obo/GO:0004889>, <http://identifiers.org/biomodels.sbo/SBO:0000181> ;
+  ns1:reactant <http://identifiers.org/biomodels.db/BIOMD0000000001#_323507> ;
+  ns1:reversible true ;
+  ns1:name "React5" ;
+  ns1:product <http://identifiers.org/biomodels.db/BIOMD0000000001#_323520> ;
+  ns1:kineticLaw <http://identifiers.org/biomodels.db/BIOMD0000000001#_323533> .
+
+<http://purl.obolibrary.org/obo/GO:0001507> owl:sameAs <http://identifiers.org/obo.go/GO:0001507> .
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000059>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000035> ;
+  ns1:constant true ;
+  ns1:value 2.000000e+1 ;
+  a ns1:Parameter .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#_323968>
+  ns1:variable <http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000037> ;
+  a ns1:EventAssignment .
+
+<http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000070>
+  ns0:is <http://identifiers.org/biomodels.sbo/SBO:0000038> ;
+  ns1:constant true ;
+  ns1:value 1.200000e-3 ;
+  a ns1:Parameter .

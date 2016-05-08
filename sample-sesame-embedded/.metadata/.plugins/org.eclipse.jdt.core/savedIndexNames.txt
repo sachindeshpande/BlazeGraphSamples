@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+/Users/sachindeshpande/Projects/ontology/blazegraph-samples-master/sample-sesame-embedded/.metadata/.plugins/org.eclipse.jdt.core
